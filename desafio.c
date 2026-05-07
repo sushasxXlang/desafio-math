@@ -19,7 +19,7 @@ void cabecalho() { //menu inicial
     }
 
 int main() {
-    int fat;
+    long long int fat;
     int num;
     // layout do menu
     while(escolha != 0) {
@@ -38,7 +38,7 @@ int main() {
             printf("Escolha um nmumero inteiro: \n");
             scanf("%d", &num);
             fat = fatorando(num);
-            printf("O fatorial de %d e: %lld", num, fat);
+            printf("O fatorial de %d e: %lld\n", num, fat);
         }
         else if (escolha == 0) {
         system("cls");
